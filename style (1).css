@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#chessboard {
+  border: 1px black solid;
+  display: inline-block;
+  padding: 0;
+}
+table{
+  padding: 0;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.square{
+  border-width: 1px;
+  border-style: solid;
+  border-color: hsl(0, 0%, 30%);
+  margin: 0;
+  width: 55px;
+  height: 55px;
+  padding: 0;
+}
+.black{
+  background-color: hsl(0, 0%, 30%);
+}
+.white{
+  background-color: white;
+}
+.chessPiece{
+  width: 100%;
+  height: 50px;
+}
+.possible{
+  background-color: orange;
+}
+.kill{
+  background-color: red;
+}
+
+
